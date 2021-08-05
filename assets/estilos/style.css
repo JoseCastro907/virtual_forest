@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+/*********** pag del login *****************/
+
+.contenedor{
+    background-image: url(../img/dd3h1g8-b0a3e4e5-020b-45b9-b76c-6d7520e55234.png);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_titulo{
+    display: flex;
+    filter: drop-shadow(2px 4px 6px black);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor_login{
+    display: flex;
+    filter: drop-shadow(2px 4px 6px black);
+    width: 25%;
+    height: 40%;
+    justify-content: center;
+    background: whitesmoke;
+    flex-direction: column;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+.form__input{
+    background: darkgray;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 305px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.text{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+.login__text{
+    margin-left: 10%;
+    color: #000;
+}
+.login_text--link {
+    text-decoration: none;
+    opacity: 0.5;
+    font-size: medium;
+    -webkit-transition: 0.5s opacity;
+    -o-transition: 0.5s opacity;
+    transition: 0.5s opacity;
+    background: none;
+    border: none;
+}
+.login_text--link:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.contenedor_contraseña{
+    display: flex;
+    margin-right: 20px;
+}
+.container-btn_login{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.container-btn_registro{
+    display: flex;
+    width: 175px;
+    height: 27px;
+    justify-content: center;
+}
+.container_outForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: start;
+}
+.container_btns{
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
+.btn{
+    display: block;
+    padding: 0.35rem 0.80rem;
+    margin-top: 25px;
+    background: rgb(34, 34, 34);
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+.registro__btn{
+    margin-top: 0px;
+    padding: 0.35rem 0.80rem;
+}
+.contraseña_reset{
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 0 3px #aaa;
+    min-height: 40px;
+    border-bottom: 0 solid rgba(0,0,0,0.25);
+    color: #66757f;
+}
+
+.mensaje{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: flex-end;
+}
+.error{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(128, 123, 123);
+}
+/************ pag reset de la password *******************/
+.pageContenedor{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo_descripcion{
+    margin: 20px 0px;
+}
+.form__reset{
+    background: rgb(224, 219, 219);
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 340px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+/***************** pag Redireccion al login ******************************/
+.contenedor__descripcion_redireccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+}
+.texto_descripcion{
+    margin: 10px;
+}
+.contenedor_img_redireccion{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************** pag Registro de usuarios ************************/
+.header_registro{
+    font-size: 15px;
+    box-shadow: rgb(170, 170, 170) 0px 0px 3px;
+    min-height: 40px;
+    color: rgb(102, 117, 127);
+    border-bottom: 0px solid rgba(0, 0, 0, 0.25);
+}
+.contenedor_formulario{
+    display: flex;
+    width: 100%;
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor_descripcion_registro{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_campos{
+    /* este campo */
+    display: flex;
+    width: 30rem;
+    height: 55vh;
+    border-radius: 15px;
+    justify-content: center;
+    background: whitesmoke;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.campos_registro{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.form__input_registro{
+    background: darkgray;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 305px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.btn-registro__btn{
+     display: block;
+    padding: 0.35rem 0.80rem;
+    margin-top: 25px;
+    background: rgb(34, 34, 34);
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+.detalle_registro{
+        font-family: 'Hind Guntur', sans-serif;
+        font-weight: bold;
+        font-feature-settings: normal;
+}

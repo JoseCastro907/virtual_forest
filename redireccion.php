@@ -1,0 +1,29 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Redireccion</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Hind+Guntur|Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/estilos/style.css">
+</head>
+
+<body>
+    <div class="contenedor__descripcion_redireccion">
+        <h1 class="texto_descripcion">Datos procesados</h1>
+        <h3 class="texto_redireccion">Redireccionando por favor espere</h3>
+    </div>
+    <div class="contenedor_img_redireccion">
+        <img class="img_loading" src="./assets/img/loading.gif" alt="loading">
+    </div>
+    <script>setTimeout("redireccionarPagina()", 3000);</script> 
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
